@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    background-color: #D8A7CA;
+    margin-top: 1em;
+}
+main{
+    
+    margin: auto;
+    /*Fim do Posicionamento*/
+    background-color: #D8A7CA;
+}
+.container{
+    margin: auto;
+    text-align: center;
+    height: 400px;
+    width: 250px;
+    min-width: 500px;
+    min-height: 100px;
+    max-width: 550px;
+    max-height: 500px;
+    /*Fim do Posicionamento*/
+    background-color: #9B97B2;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    /*OUTRA ALTERNATIVA DE LAYOUT
+    background: #9B97B2;
+    background: -webkit-radial-gradient(center, #9B97B2 70%, transparent 50%);
+    background: -moz-radial-gradient(center, #9B97B2 70%, transparent 50%);
+    background: radial-gradient(ellipse at center, #9B97B2 70%, transparent 50%);*/
+}
+.bloco{
+    position: relative;
+    top: 15%;
+    margin: 3em;
+    padding: 5px;
+    /*Fim do Posicionamento*/
+}
+.bloco:hover{
+    top: 20%;
+    transition: 2s;
+}
+.container:hover{
+    height:500px;
+    transition: 2s;
+}
+input{
+    display: inline-block;
+    text-align: center;
+    margin-top: 2em;
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    /*Fim do Posicionamento*/
+    font-weight: normal;
+    font-style: normal;
+    border-radius: 20px;
+    border: unset;
+    text-decoration: none;
+    background-color: #676186;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+input:hover{
+    border: 0.5px solid transparent;
+    background-color: #8272D9;
+    cursor: pointer;
+    height: 30px;
+    transition: 1.5s;
+}
+button{
+    margin-top: 3em;
+    margin-bottom: 5em;
+    width: 200px;
+    height: 45px;
+    font-size:13px;
+    /*Fim do Posicionamento*/
+    cursor: pointer;
+    font-style: normal;
+    font-weight: bold;
+    background-color: #8272D9;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover{
+    background-color: #676186;
+    width: 100px;
+    border-radius: 20px;
+    transition: 1.5s;
+}
+.bloco > h1{
+    font-size: 3em;
+    /*Fim do Posicionamento*/
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: black;
+}
+h1:hover{
+    font-size: 4em;
+    color: rgb(208, 193, 241);
+    transition: 2s;
+    font-weight: bolder;
+}
+
